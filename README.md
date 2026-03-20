@@ -13,6 +13,7 @@ Các mục tiêu chính bao gồm:
 
 
 ## 🛠 Cấu trúc dự án
+```text
 Nhom12_BaiTapLon_DataMining/
 ├── app/                      # Ứng dụng Demo (Giao diện web Streamlit)
 │   └── streamlit_app.py      # Script chạy ứng dụng dự báo
