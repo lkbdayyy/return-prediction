@@ -11,8 +11,12 @@ Các mục tiêu chính bao gồm:
 * Xây dựng mô hình học máy để tự động hóa việc đánh giá rủi ro đơn hàng.
 * Cung cấp cái nhìn trực quan về xu hướng vận hành của doanh nghiệp.
 
+## 📊 Hình ảnh kết quả tiêu biểu
+| Tỷ lệ trả hàng | Yếu tố quan trọng | Ma trận nhầm lẫn |
+|:---:|:---:|:---:|
+| ![Pie](outputs/return_ratio_pie.png) | ![Importance](outputs/feature_importance.png) | ![CM](outputs/confusion_matrix.png) |
 
-## 🛠 Cấu trúc dự án
+## 📂 Cấu trúc thư mục chuyên nghiệp
 ```text
 Nhom12_BaiTapLon_DataMining/
 ├── app/                      # Ứng dụng Demo (Giao diện web Streamlit)
@@ -31,16 +35,15 @@ Nhom12_BaiTapLon_DataMining/
 ├── outputs/                  # Lưu trữ kết quả hình ảnh (Charts/Plots)
 ├── src/                      # Mã nguồn module xử lý (Loader, Cleaner)
 └── README.md                 # Tài liệu hướng dẫn dự án
+🔍 Phương pháp tiếp cận
+Phân tích EDA: Sử dụng Matplotlib và Seaborn để tìm kiếm mối tương quan giữa giá trị đơn hàng và tỷ lệ trả hàng.
 
+Tiền xử lý: Sử dụng Label Encoding cho các biến phân loại và chuẩn hóa dữ liệu để đảm bảo độ tin cậy.
 
+Mô hình hóa: Áp dụng thuật toán Random Forest - một phương pháp mạnh mẽ giúp xử lý dữ liệu phi tuyến tính hiệu quả.
 
+Đánh giá: Sử dụng Ma trận nhầm lẫn (Confusion Matrix) và Báo cáo phân loại để đo lường hiệu suất thực tế.
 
-
-## 📊 Hình ảnh kết quả tiêu biểu
-| Tỷ lệ trả hàng | Yếu tố quan trọng | Ma trận nhầm lẫn |
-|:---:|:---:|:---:|
-| ![Pie](outputs/return_ratio_pie.png) | ![Importance](outputs/feature_importance.png) | ![CM](outputs/confusion_matrix.png) |
-
-
+Nhóm thực hiện: Nhóm 12 - Khoa Công nghệ Thông tin
 ---
 **Author:** lkbdayyy | **Status:** Completed ✅
