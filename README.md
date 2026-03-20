@@ -32,6 +32,10 @@ Nhom12_BaiTapLon_DataMining/
 ├── src/                      # Mã nguồn module xử lý (Loader, Cleaner)
 └── README.md                 # Tài liệu hướng dẫn dự án
 
+
+
+
+
 ## 📊 Hình ảnh kết quả tiêu biểu
 | Tỷ lệ trả hàng | Yếu tố quan trọng | Ma trận nhầm lẫn |
 |:---:|:---:|:---:|
