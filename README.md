@@ -1,22 +1,16 @@
 
 # 📦 E-commerce Returns Prediction Project
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 
-Dự án phân tích và dự báo tỷ lệ hoàn hàng chuyên sâu.
+### 📂 Project Structure
+- `src/`: Core logic for data processing and visualization.
+- `scripts/`: Execution scripts to run the analysis.
+- `outputs/`: Generated charts and reports.
+- `notebooks/`: Experimental Jupyter notebooks.
 
-## 📂 Cấu trúc dự án
-- `app/`: Chứa mã nguồn ứng dụng (nếu có).
-- `configs/`: Các file cấu hình mô hình.
-- `notebooks/`: Chứa file Google Colab/Jupyter Notebook.
-- `outputs/`: Chứa các biểu đồ phân tích (10 biểu đồ).
-- `src/`: Mã nguồn xử lý dữ liệu chính.
-
-## 📊 Kết quả Phân tích (Xem trong outputs/)
-### Tổng quan & Tỷ lệ
-| Số lượng Đơn hàng | Tỷ lệ Phần trăm |
-|---|---|
-| ![Số lượng](outputs/order_status_chart.png) | ![Tỷ lệ](outputs/return_ratio_pie.png) |
-
-*(Và các biểu đồ khác nằm trong thư mục outputs)*
+### 🚀 How to run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run analysis: `python scripts/run_analysis.py`
 
 ---
-*Dự án thực hiện bởi [lkbdayyy](https://github.com/lkbdayyy)*
+*Developed by [lkbdayyy](https://github.com/lkbdayyy)*
